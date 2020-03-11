@@ -40,6 +40,7 @@ var handleEvent = {
     },
     init = function() {
         // vConsole = new VConsole();
+        window.localStorage.setItem('PAGESTATE', 'abnomal');
         addEvent();
         handleEvent.dealPlatShow();
         // 监听 左上角返回键和 物理键 关闭页面

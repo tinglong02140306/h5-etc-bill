@@ -24,6 +24,10 @@
     border-color: #81bb65;
 }
 
+.item3 {
+    border-color: #1296db;
+}
+
 .icon {
     width: 25%;
     height: 100%;
@@ -35,6 +39,10 @@
 
 .item2 .icon {
     background: url("../images/icon-speed.png") center / 2.22rem no-repeat;
+}
+
+.item3 .icon {
+    background: url("../images/icon-tiny-etc.png") center / 2.22rem no-repeat;
 }
 
 .title {

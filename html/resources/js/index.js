@@ -33,8 +33,10 @@ var requestEvent = {
                 type = util.getQueryString('type'),
                 platId = util.getQueryString('plat_id'),
                 param;
+            console.log(location.href);
             console.log('platId::' + platId);
             if (!code) return;
+            if (!platId) return;
             param = {
                 'auth_code': code,
                 'plat_id': platId
@@ -88,10 +90,10 @@ var requestEvent = {
                     path = '';
                 if (res.code = "0000") {
                     if (data && data.status == 1) {
-                        path = './sign-result.html';
+                        path = './sign-result.html?t=' + new Date().getTime();
                         window.localStorage.setItem('SIGNINFO', JSON.stringify(data));
                     } else {
-                        path = './wxSign.html';
+                        path = './wxSign.html?t=' + new Date().getTime();
                         window.localStorage.removeItem('SIGNINFO');
                     }
                     window.location.href = path;
@@ -125,6 +127,10 @@ var requestEvent = {
     // 初始化
     init = function() {
         // vConsole = new VConsole();
+        if (window.localStorage.getItem('PAGESTATE') == 'abnomal') {
+            util.closePage();
+            return;
+        }
         if (util.isAlipay()) {
             requestEvent.alipayLogin();
         } else if (util.isWeiXin()) {
