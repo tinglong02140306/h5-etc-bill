@@ -127,7 +127,6 @@
                         console.log(JSON.stringify(res));
                         if ("0000" == res.code) {
                             setTimeout(function() {
-                                const newTab = window.open();
                                 const div = document.createElement('div');
                                 div.innerHTML = res.data; // html code
                                 document.body.appendChild(div);

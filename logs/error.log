@@ -2533,3 +2533,19 @@
 2020/01/06 09:06:13 [error] 13664#11360: *2669 CreateFile() "C:\Users\30122\Desktop\h5\aa/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "longting.test.etcsd.cn", referrer: "http://longting.test.etcsd.cn/sign-result.html"
 2020/01/06 09:06:45 [error] 13664#11360: *2678 CreateFile() "C:\Users\30122\Desktop\h5\aa/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "longting.test.etcsd.cn", referrer: "http://longting.test.etcsd.cn/sign-result.html"
 2020/01/06 09:07:21 [error] 13664#11360: *2689 CreateFile() "C:\Users\30122\Desktop\h5\aa/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "longting.test.etcsd.cn", referrer: "http://longting.test.etcsd.cn/sign-result.html"
+2020/03/19 08:58:52 [emerg] 5184#13024: CreateDirectory() "C:\Users\30122\Desktop\code-sum\update-h5\h5-etc-bill/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/03/19 08:59:42 [notice] 16060#11720: signal process started
+2020/03/19 08:59:42 [error] 16060#11720: OpenEvent("Global\ngx_reload_5140") failed (2: The system cannot find the file specified)
+2020/03/19 09:00:05 [emerg] 14376#7544: CreateDirectory() "C:\Users\30122\Desktop\code-sum\update-h5\h5-etc-bill/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/03/19 09:00:07 [emerg] 12676#15760: CreateDirectory() "C:\Users\30122\Desktop\code-sum\update-h5\h5-etc-bill/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/03/19 09:00:08 [emerg] 14552#12484: CreateDirectory() "C:\Users\30122\Desktop\code-sum\update-h5\h5-etc-bill/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/03/19 09:00:11 [emerg] 14788#15636: CreateDirectory() "C:\Users\30122\Desktop\code-sum\update-h5\h5-etc-bill/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/03/19 09:00:11 [emerg] 10248#552: CreateDirectory() "C:\Users\30122\Desktop\code-sum\update-h5\h5-etc-bill/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/03/19 09:00:30 [emerg] 6580#8200: CreateDirectory() "C:\Users\30122\Desktop\code-sum\update-h5\h5-etc-bill/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/03/19 09:00:30 [emerg] 6056#3652: CreateDirectory() "C:\Users\30122\Desktop\code-sum\update-h5\h5-etc-bill/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/03/19 09:00:45 [emerg] 14964#2616: CreateDirectory() "C:\Users\30122\Desktop\code-sum\update-h5\h5-etc-bill/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/03/19 09:01:01 [notice] 14600#12964: signal process started
+2020/03/19 09:01:01 [error] 14600#12964: OpenEvent("Global\ngx_reload_5140") failed (2: The system cannot find the file specified)
+2020/03/19 09:02:06 [emerg] 13224#13428: CreateDirectory() "C:\Users\30122\Desktop\code-sum\update-h5\h5-etc-bill/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/03/19 09:02:18 [notice] 4020#16268: signal process started
+2020/03/19 09:02:18 [error] 4020#16268: OpenEvent("Global\ngx_reload_5140") failed (2: The system cannot find the file specified)

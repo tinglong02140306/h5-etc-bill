@@ -17,7 +17,7 @@ body,
     width: 1.42rem;
     height: 1.42rem;
     background: url("../images/loading.png") center / 1.42rem 1.42rem no-repeat;
-    animation: round 3s steps(12) 2;
+    animation: round 3s steps(12) 2 infinite;
 }
 
 @keyframes round {
